@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@include mat-core();
+$my-app-primary: mat-palette($mat-blue-grey);
+$my-app-accent:  mat-palette($mat-pink, 500, 900, A100);
+$my-app-warn:    mat-palette($mat-deep-orange);
+$my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
+@include angular-material-theme($my-app-theme);
+
+.tabs-theme {
+  $alternate-primary: mat-palette($mat-blue);
+  $alternate-accent:  mat-palette($mat-blue-grey, 400);
+  $alternate-theme: mat-light-theme($alternate-primary, $alternate-accent);
+  font-family: 'Libre Caslon Display', serif;
+  background: #9CB6D9;
+  @include angular-material-theme($alternate-theme);
+}
+
+body {
+    font-family: 'Libre Caslon Display', serif;
+}
+body {
+    color: #2E4159;
+    color: #9CB6D9;
+    color: #5B83A6;
+    color: #A8C1EA;
+    color: #F2F2F2;
+}

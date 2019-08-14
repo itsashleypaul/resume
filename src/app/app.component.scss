@@ -1,0 +1,63 @@
+.page {
+    text-align: left;
+    background: #F2F2F2;
+    color: #2E4159;
+    font-size: 20px;
+}
+
+.header {
+    text-align: left;
+    background: #A8C1EA;
+    color: #5B83A6;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.subtitle {
+    text-align: left;
+    background: #5B83A6;
+    color: white;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    text-align: center;
+    background: #f2f2f2;
+    width: 41%;
+    color: #2E4159;
+    font-size: 20px;
+    height: 750px;
+}
+
+.right {
+    text-align: center;
+    background: #F2F2F2;
+    width: 56%;
+    color: #2E4159;
+    font-size: 20px;
+    float: right;
+    height: 750px;
+}
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.skills {
+    color: #5B83A6;
+    font-size: 23px;
+    text-align: left;
+    line-height: 200%;
+    padding-left: 20px;
+}
