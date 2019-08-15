@@ -1,0 +1,17 @@
+[ 
+        {"skill": "Angular", "percentage": "60"},
+        {"skill": "CSS/SCSS", "percentage": "60"},
+        {"skill": "Dart", "percentage": "50"},
+        {"skill": "GitHub", "percentage": "90"},
+        {"skill": "HTML", "percentage": "80"},
+        {"skill": "Java", "percentage": "80"},
+        {"skill": "Javascript / Typescript", "percentage": "65"},
+        {"skill": "Jira", "percentage": "95"},
+        {"skill": "Json", "percentage": "40"},
+        {"skill": "mySQL", "percentage": "60"},
+        {"skill": "Oracle", "percentage": "40"},
+        {"skill": "Python", "percentage": "50"},
+        {"skill": "SQL", "percentage": "90"},
+        {"skill": "Visual Studio Code", "percentage": "95"}
+    ]
+    
