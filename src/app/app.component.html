@@ -38,7 +38,7 @@
           </div>
 
           <div class="column right">
-            <h2>OH, HEY THERE!</h2>
+            <h2>ABOUT ME</h2>
             <p>
               My name is Ashley Paul and I am an aspiring front-end developer and a candidate for a B.S. in Computer
               Information Systems. I will be graduating from Bentley University in the Spring of 2020. I have had three
@@ -52,21 +52,7 @@
             <div class="skills">
               <p>
                 <strong>
-                  Angular<mat-progress-bar class="rainbow" mode="determinate" value="60"></mat-progress-bar>
-                  CSS/SCSS<mat-progress-bar class="rainbow" mode="determinate" value="60"></mat-progress-bar>
-                  Dart<mat-progress-bar class="rainbow" mode="determinate" value="50"></mat-progress-bar>
-                  GitHub<mat-progress-bar class="rainbow" mode="determinate" value="90"></mat-progress-bar>
-                  HTML<mat-progress-bar class="rainbow" mode="determinate" value="80"></mat-progress-bar>
-                  Java<mat-progress-bar class="rainbow" mode="determinate" value="80"></mat-progress-bar>
-                  Javascript / Typescript<mat-progress-bar class="rainbow" mode="determinate" value="65">
-                  </mat-progress-bar>
-                  Jira<mat-progress-bar class="rainbow" mode="determinate" value="95"></mat-progress-bar>
-                  Json<mat-progress-bar class="rainbow" mode="determinate" value="40"></mat-progress-bar>
-                  mySQL<mat-progress-bar class="rainbow" mode="determinate" value="60"></mat-progress-bar>
-                  Oracle<mat-progress-bar class="rainbow" mode="determinate" value="40"></mat-progress-bar>
-                  Python<mat-progress-bar class="rainbow" mode="determinate" value="50"></mat-progress-bar>
-                  SQL<mat-progress-bar class="rainbow" mode="determinate" value="90"></mat-progress-bar>
-                  Visual Studio Code<mat-progress-bar class="rainbow" mode="determinate" value="95"></mat-progress-bar>
+                  <span *ngFor="let skill of skills">{{skill.skill}}<mat-progress-bar class="rainbow" mode="determinate" value={{skill.percentage}}></mat-progress-bar></span>
                 </strong>
               </p>
             </div>
@@ -154,8 +140,8 @@
     </mat-tab>
   </mat-tab-group>
 
-  <hr class="line"><br>
-  <div id="run">
+  <hr class="line2"><br>
+  <div id="run" class="responsive">
     <i class="material-icons md-36 light">star</i>&nbsp;&nbsp;&nbsp;
     <i class="material-icons md-36 light">star</i>&nbsp;&nbsp;&nbsp;
     <i class="material-icons md-36 light">star</i>

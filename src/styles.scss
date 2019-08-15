@@ -13,6 +13,11 @@ $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
   font-family: 'Libre Caslon Display', serif;
   background: #5B83A6;
   @include angular-material-theme($alternate-theme);
+
+  .mat-progress-bar-buffer {
+    background-color: white; 
+    height: 20 px;   
+  }
 }
 
 body {
@@ -37,4 +42,8 @@ body {
     background: linear-gradient(90deg, #A8C1EA 0%, #FFB7B2 20%, #FFDAC1 40%, #9CB6D9 60%, #5B83A6 80%, #C7CEEA 100%);
     background-size: 200%;
     color: #5B83A6;
+}
+
+.mat-progress-bar .mat-progress-bar-element {
+    height: 30px;
 }

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     AppRoutingModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

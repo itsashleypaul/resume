@@ -11,18 +11,15 @@
     color: #2E4159;
     font-size: 50px;
     padding-top: 30px;
-    padding-left: 0px;
-    padding-bottom: 0px;
 }
 
 .subtitle {
     text-align: left;
-    background: #5B83A6;
+    background-color: #5B83A6;
     color: white;
-    font-size: 30px;
-    padding-left: 5px;
-    padding-top: 0px;
-}
+    font-size: 20px;
+    padding-left: 43px;
+    padding-right: 30px;}
 
 .table {
     display: table; 
@@ -49,10 +46,11 @@
 .right {
     text-align: center;
     background: #F2F2F2;
-    width: 60%;
+    width: 50%;
     color: #2E4159;
     font-size: 20px;
     float: right;
+    padding-right: 30px;
 }
 
 .skills {
@@ -64,6 +62,13 @@
 }
 
 hr.line {
+    height: 5%;
+    width: 99%;
+    position: absolute;
+    background: linear-gradient(90deg, #FFB7B2 0%, #FFDAC1 25%, #9CB6D9 50%, #C7CEEA 75%, #A8C1EA 100%);
+    background-size: 1800% 1800%;
+    animation: rainbow 10s ease infinite;}
+hr.line2 {
     height: 10%;
     width: 99%;
     position: absolute;
