@@ -1,6 +1,6 @@
 @import '~@angular/material/theming';
 @include mat-core();
-$my-app-primary: mat-palette($mat-blue-grey);
+$my-app-primary: mat-palette($mat-orange);
 $my-app-accent:  mat-palette($mat-pink, 500, 900, A100);
 $my-app-warn:    mat-palette($mat-deep-orange);
 $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
@@ -11,7 +11,7 @@ $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
   $alternate-accent:  mat-palette($mat-blue-grey, 400);
   $alternate-theme: mat-light-theme($alternate-primary, $alternate-accent);
   font-family: 'Libre Caslon Display', serif;
-  background: #9CB6D9;
+  background: #5B83A6;
   @include angular-material-theme($alternate-theme);
 }
 
@@ -24,4 +24,17 @@ body {
     color: #5B83A6;
     color: #A8C1EA;
     color: #F2F2F2;
+}
+
+.mat-tab-label {
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.rainbow .mat-progress-bar-fill::after {
+    height: 5px;
+    width: 250px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #A8C1EA 0%, #FFB7B2 20%, #FFDAC1 40%, #9CB6D9 60%, #5B83A6 80%, #C7CEEA 100%);
+    background-size: 200%;
+    color: #5B83A6;
 }

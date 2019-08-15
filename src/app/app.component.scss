@@ -3,12 +3,13 @@
     background: #F2F2F2;
     color: #2E4159;
     font-size: 20px;
+    padding-left: 10px;
 }
 
 .header {
     text-align: left;
-    background: #A8C1EA;
-    color: #5B83A6;
+    background: #C7CEEA;
+    color: #2E4159;
     font-size: 50px;
     padding-top: 30px;
     padding-left: 0px;
@@ -35,7 +36,6 @@
     width: 41%;
     color: #2E4159;
     font-size: 20px;
-    height: 750px;
 }
 
 .right {
@@ -45,19 +45,106 @@
     color: #2E4159;
     font-size: 20px;
     float: right;
-    height: 750px;
-}
-
-.row:after {
-    content: " ";
-    display: table;
-    clear: both;
 }
 
 .skills {
     color: #5B83A6;
-    font-size: 23px;
+    font-size: 20px;
     text-align: left;
     line-height: 200%;
     padding-left: 20px;
 }
+
+hr.line {
+    height: 5%;
+    width: 98%;
+    position: absolute;
+    background: linear-gradient(90deg, #FFB7B2 0%, #FFDAC1 25%, #9CB6D9 50%, #C7CEEA 75%, #A8C1EA 100%);
+    background-size: 1800% 1800%;
+    animation: rainbow 10s ease infinite;}
+
+  @keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.material-icons.md-36 { 
+    font-size: 36px;
+    color: #5B83A6;
+}
+
+.material-icons.md-36.orange { 
+    font-size: 36px;
+    color: #FF9800;
+}
+
+.experience {
+    text-align: left;
+    background: #F2F2F2;
+    color: #2E4159;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#company, #location {
+    display:inline;
+}
+#position, #time {
+    display:inline;
+}
+
+.company {
+    text-align: left;
+    background: #f2f2f2;
+    color: #2E4159;
+    font-size: 25px;
+}
+.locationmhe {
+    text-align: right;
+    padding-left: 940px;
+    background: #f2f2f2;
+    color: #2E4159;
+    font-size: 20px;
+}
+.locationcis {
+    text-align: right;
+    padding-left: 845px;
+    background: #f2f2f2;
+    color: #2E4159;
+    font-size: 20px;
+}
+
+.timemhe {
+    text-align: right;
+    padding-left: 980px;
+    background: #f2f2f2;
+    color: #2E4159;
+    font-size: 20px;
+}
+
+.timecis {
+    text-align: right;
+    padding-left: 795px;
+    background: #f2f2f2;
+    color: #2E4159;
+    font-size: 20px;
+}
+
+.timep4i {
+    text-align: right;
+    padding-left: 1015px;
+    background: #f2f2f2;
+    color: #2E4159;
+    font-size: 20px;
+}
+
+.color {
+    background: linear-gradient(90deg, #FFB7B2 0%, #FFDAC1 25%, #9CB6D9 50%, #C7CEEA 75%, #A8C1EA 100%);
+}
+
+.responsive {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
